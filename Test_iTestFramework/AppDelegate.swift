@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 import iTestFramework
 
 @UIApplicationMain
@@ -20,6 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         print(TestClassA.classMethod(print: "iTestFramework sample is working"))
+        print("TestClassA instance \(TestClassA.shared)")
+        print(TestClassA.shared.delegateMethod01())
+        TestClassA.shared.setInsVaribale01(set: "iTestFramework is working fine.\nVersion: \(iTestFrameworkVersionNumber)")
         return true
     }
 

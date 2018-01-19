@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import iTestFramework
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var testLbl: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        testLbl.text = TestClassA.shared.getInsVaribale01()
     }
 
     override func didReceiveMemoryWarning() {
