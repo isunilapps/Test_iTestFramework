@@ -1,0 +1,12 @@
+PODS:
+  - iTestFramework (0.0.12)
+
+DEPENDENCIES:
+  - iTestFramework
+
+SPEC CHECKSUMS:
+  iTestFramework: 1b7ff7f4b7664cf5836c442b6c12303b0d64118d
+
+PODFILE CHECKSUM: fac8503a309f0930b5613db206f48ee1c10e5f0c
+
+COCOAPODS: 1.4.0.rc.1
